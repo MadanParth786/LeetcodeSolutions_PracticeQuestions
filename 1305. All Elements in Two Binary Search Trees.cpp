@@ -27,6 +27,7 @@ public:
           dfs(root2);
           sort(begin(res), end(res));
           return res;
+          return 0;
      }
         
     
