@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> generate(int numRows) {
+    vector<vector<int>> Generate(int numRows) {
         vector<vector<int>>r(numRows);
 
         for (int i = 0; i < numRows; i++) {
