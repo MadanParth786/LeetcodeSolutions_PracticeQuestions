@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int subtractProductAndSum(int n) {
+    int SubtractProductAndSum(int n) {
         int p=1;
         int s=0;
         while(n>0){
