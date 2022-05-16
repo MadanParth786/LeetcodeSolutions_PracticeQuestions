@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isSumEqual(string firstWord, string secondWord, string targetWord) {
+    bool IsSumEqual(string firstWord, string secondWord, string targetWord) {
         int f=0,se=0,ta=0;
         for(int i=0;i<firstWord.size();i++)
             f=f*10 + (firstWord[i]-'a');
