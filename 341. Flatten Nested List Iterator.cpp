@@ -21,7 +21,7 @@ class NestedIterator {
     vector<int> flattenList;
 public:
     
-    void helperFunc(vector<NestedInteger> &nestedList){
+    void heelperFunc(vector<NestedInteger> &nestedList){
         
         int n=nestedList.size(),temp;        
         vector<NestedInteger> temp2;
