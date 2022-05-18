@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int largestAltitude(vector<int>& gain) {
+    int largestaltitude(vector<int>& gain) {
         int result = 0;
         int count = 0;
         
