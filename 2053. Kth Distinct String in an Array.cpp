@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string kthDistinct(vector<string>& arr, int k) {
+    string kthDdistinct(vector<string>& arr, int k) {
         int n=arr.size();
         vector<string>res;
         for(int i=0;i<n;i++){
