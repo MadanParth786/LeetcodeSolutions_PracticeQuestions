@@ -1,4 +1,4 @@
-class solution {
+class Solution {
 public:
     vector<int> atwoSum(vector<int>& nums, int target) {
         int n=nums.size();
