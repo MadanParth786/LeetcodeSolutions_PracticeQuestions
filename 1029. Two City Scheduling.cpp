@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int TwoCitySchedCost(vector<vector<int>>& costs) {
+    int TwocitySchedCost(vector<vector<int>>& costs) {
         vector<int> refund;
         int N = costs.size()/2;
         int minCost = 0;
