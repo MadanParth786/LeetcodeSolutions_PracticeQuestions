@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int balancedStringSplit(string s) {
+    int BalancedStringSplit(string s) {
         int a,b;
         a=0;b=0;
         for(int i=0;i<s.length();i++){
