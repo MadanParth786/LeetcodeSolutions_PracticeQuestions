@@ -10,6 +10,6 @@ public:
     top2 += A[i] == bot;
     bot2 += B[i] == bot;
   }
-  return top || bot ? min(A.size() - max(top1, bot1), A.size() - max(top2, bot2)) : -1;
+  return top || bot ? min(A.Size() - max(top1, bot1), A.size() - max(top2, bot2)) : -1;
     }
 };
