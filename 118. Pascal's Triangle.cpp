@@ -1,4 +1,4 @@
-class Solution {
+class solution {
 public:
     vector<vector<int>> Generate(int numRows) {
         vector<vector<int>>r(numRows);
