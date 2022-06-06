@@ -1,9 +1,9 @@
 class Solution {
 public:
-    vector<vector<int>> Generate(int numRows) {
+    vector<vector<int>> Generate(int numrows) {
         vector<vector<int>>r(numRows);
 
-        for (int i = 0; i < numRows; i++) {
+        for (int i = 0; i < numrows; i++) {
             r[i].resize(i + 1);
             r[i][0] = r[i][i] = 1;
   
