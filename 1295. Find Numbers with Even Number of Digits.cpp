@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int FindNumbers(vector<int>& nums) {
+    int FindNumber(vector<int>& nums) {
         int n=nums.size();
         int count=0;
         for(int i=0;i<n;i++){
