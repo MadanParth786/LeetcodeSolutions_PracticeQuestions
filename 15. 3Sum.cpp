@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> threeSum(vector<int>& nums) {
+    vector<vector<int>> ThreeSum(vector<int>& nums) {
         sort(nums.begin(), nums.end());
     vector<vector<int>> res;
     for (unsigned int i=0; i<nums.size(); i++) {
