@@ -12,7 +12,7 @@
 class Solution {
 public:
     
-    vector<int> res;
+    vector<int> Res;
      void dfs(TreeNode *root)
      {
           if (!root)
