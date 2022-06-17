@@ -1,6 +1,6 @@
 class Solution {
 public:
-    ListNode* AddTwoNumbers(ListNode* l1, ListNode* l2) {
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
          ListNode preHead(0), *p = &preHead;
     int extra = 0;
     while (l1 || l2 || extra) {
