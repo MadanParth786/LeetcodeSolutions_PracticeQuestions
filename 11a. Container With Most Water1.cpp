@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int MaxArea(vector<int>& height) {
+    int maxArea(vector<int>& height) {
         int water = 0;
     int i = 0, j = height.size() - 1;
     while (i < j) {
