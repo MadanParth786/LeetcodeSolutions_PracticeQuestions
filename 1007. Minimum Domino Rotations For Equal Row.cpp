@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minDominorotations(vector<int>& tops, vector<int>& bottoms) {
-        auto top = A[0], bot = B[0], top1 = 0, bot1 = 0, top2 = 0, bot2 = 0;
+        auto top = A[0], bot = B[0], top1 = 0, bot1 = 0, top2 = 0, bot2 = 0
   for (auto i = 0; i < A.size(); ++i) {
     if (A[i] != top && B[i] != top) top = 0;
     if (A[i] != bot && B[i] != bot) bot = 0;
